@@ -1,0 +1,26 @@
+
+GOTO: 
+
+     http://www.haskell.org/haskellwiki/Xmonad/Using_xmonad_in_XFCE
+     
+ and
+     http://ivanmiljenovic.wordpress.com/2008/01/20/xmonad/
+
+     got through the tutorial(s) to configure XFCE for xmonad.
+     The first link should be enough but the second has some additional info.
+
+
+HOWTO use:
+
+Make a backup of your xmonad.hs and copy over the 
+
+    xmonad.hs to .xmonad 
+
+
+Add this line to your .xinitrc
+
+    exec startxfce4
+
+
+startx and you should be in a somewhat fully integrated XFCE Xmonad
+environment!
